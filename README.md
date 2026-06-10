@@ -1,10 +1,10 @@
-# ⚡ Smart Price Tracker & Intelligent Web Scraper
+# Smart Price Tracker & Intelligent Web Scraper
 
 > A Python desktop application to compare, track, and analyze product prices across multiple e-commerce platforms in real time.
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 Smart Price Tracker is a full-featured desktop application built with **Python 3** and **Tkinter**. It allows users to:
 
@@ -19,7 +19,7 @@ Smart Price Tracker is a full-featured desktop application built with **Python 3
 
 ---
 
-## 🗂 File Structure
+## File Structure
 
 ```
 SmartPriceTracker/
@@ -35,7 +35,7 @@ SmartPriceTracker/
 
 ---
 
-## ⚙ Installation & Setup
+## Installation & Setup
 
 ### 1. Prerequisites
 - Python 3.10 or higher
@@ -60,23 +60,23 @@ python main.py
 
 ---
 
-## 🚀 How to Use
+## How to Use
 
 | Step | Action |
 |------|--------|
 | 1 | Type a product name (e.g., *iPhone 15, Samsung TV*) in the search bar |
 | 2 | Click **Search** or press Enter |
-| 3 | View results — cheapest is highlighted in green with 🏆 |
-| 4 | Select a row → click **📌 Track** to save to database |
-| 5 | In the right panel, select a tracked item → click **📈 Graph** |
-| 6 | Use **🎯 Set Target** to get a popup alert when price drops |
-| 7 | Click **▶ Auto-Refresh** to enable background price updates |
-| 8 | Use **⬇ Export CSV** to download all tracked data |
-| 9 | Toggle **☀ Light Mode** / **🌙 Dark Mode** in the top-right corner |
+| 3 | View results — cheapest is highlighted in green with |
+| 4 | Select a row → click ** Track** to save to database |
+| 5 | In the right panel, select a tracked item → click **Graph** |
+| 6 | Use **Set Target** to get a popup alert when price drops |
+| 7 | Click **Auto-Refresh** to enable background price updates |
+| 8 | Use **Export CSV** to download all tracked data |
+| 9 | Toggle **☀ Light Mode** / ** Dark Mode** in the top-right corner |
 
 ---
 
-## 🔍 Scraping Strategy
+## Scraping Strategy
 
 The app uses a two-tier approach:
 
@@ -110,7 +110,7 @@ This ensures the app **always shows results**, even in offline or restricted lab
 
 ---
 
-## 🧪 Technologies Used
+## Technologies Used
 
 | Library | Purpose |
 |---------|---------|
@@ -125,7 +125,7 @@ This ensures the app **always shows results**, even in offline or restricted lab
 
 ---
 
-## ❓ Viva Questions & Answers
+## Viva Questions & Answers
 
 ### Q1. What is web scraping and how is it implemented in this project?
 
@@ -163,7 +163,7 @@ This ensures the app **always shows results**, even in offline or restricted lab
 
 ---
 
-## 👨‍💻 Author Notes
+## Author Notes
 
 - Mock data is used to ensure the app works in offline/lab environments where real scraping is blocked
 - All prices are normalised using regex to strip ₹, commas, and whitespace before storing as float
